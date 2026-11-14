@@ -53,7 +53,7 @@ export const createResilientStorage = (
   return {
     storage,
     getSnapshot: () => persistent,
-    subscribe(listener: () => void) {
+    subscribe: (listener: () => void) => {
       listeners.add(listener);
       return () => {
         listeners.delete(listener);

@@ -73,7 +73,7 @@ export const CityMap = memo(({ places, solved, selected, onSelect }: CityMapProp
           !(sibling instanceof HTMLDialogElement)
         ) {
           siblings.push({ element: sibling, inert: sibling.inert });
-          sibling.inert = true;
+          sibling.setAttribute("inert", "");
         }
       }
       branch = branch.parentElement;

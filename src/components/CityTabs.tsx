@@ -39,7 +39,7 @@ export const CityTabs = ({ active }: { active: CityId }) => {
                       : -1;
             if (next < 0) return;
             event.preventDefault();
-            navigate(`/miasto/${cities[next].id}`);
+            void navigate(`/miasto/${cities[next].id}`);
             refs.current[next]?.focus();
           }}
         >
