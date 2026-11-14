@@ -6,13 +6,25 @@ on:
       - master
     paths-ignore:
       - "*.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   buildLintAndTest:
     name: Build & Test
     runs-on: ubuntu-26.04
     steps:
-      - uses: actions/checkout@v7
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
       - uses: voidzero-dev/setup-vp@v1.22.0
         with:
           node-version: "24"
@@ -21,7 +33,7 @@ jobs:
         run: vp install
 
       - name: Build
-        run: vp build
+        run: vp build --base="${{ steps.pages.outputs.base_path }}/"
 
       - name: Lint
         run: vp lint
@@ -29,9 +41,9 @@ jobs:
       - name: Test
         run: vp test
 
-      - uses: actions/upload-artifact@v7
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: dist
           path: dist/
 
   deploy:
@@ -40,15 +52,12 @@ jobs:
     needs: buildLintAndTest
     runs-on: ubuntu-26.04
     permissions:
-      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/download-artifact@v7
-        with:
-          name: dist
-          path: dist/
-
-      - name: 🚀 Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
