@@ -165,7 +165,7 @@
     "questionId": "bacteria:water",
     "cityId": "bacteria",
     "buildingId": "water",
-    "question": "🌊 MISJA: ŻYCIE BEZ JĄDRA! W Bakteryjnym Mieście nić dna i rybosomy znajdują się w cytoplazmie. Jak nazywa się jej płynna część, w której zachodzi wiele reakcji chemicznych?",
+    "question": "🌊 MISJA: ŻYCIE BEZ JĄDRA! W Bakteryjnym Mieście nić DNA i rybosomy znajdują się w cytoplazmie. Jak nazywa się jej płynna część, w której zachodzi wiele reakcji chemicznych?",
     "options": ["Chloroplast", "Cytozol", "Ściana komórkowa", "Mitochondrium"],
     "correct": 1
   },
