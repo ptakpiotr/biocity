@@ -1,0 +1,105 @@
+{
+  "pwa": {
+    "title": "BioCity offline",
+    "offlineReady": "Gotowe! Możesz teraz grać bez internetu.",
+    "updateReady": "Jest nowa wersja BioCity. Wczytać ją teraz?",
+    "update": "Wczytaj nową wersję",
+    "later": "Później",
+    "close": "OK",
+    "updateFailed": "Nie udało się wczytać nowej wersji. Spróbuj ponownie."
+  },
+  "common": {
+    "storageUnavailable": "Możesz grać dalej, ale przeglądarka nie zapisuje postępu. Po odświeżeniu strony nowe odpowiedzi mogą zniknąć.",
+    "back": "← Wróć do mapy",
+    "loading": "Wczytujemy mapę…",
+    "databaseError": "Nie udało się otworzyć bazy pytań. Zezwól na przechowywanie danych w przeglądarce i odśwież stronę."
+  },
+  "header": {
+    "reset": "Wyczyść postęp"
+  },
+  "reset": {
+    "question": "Zacząć od nowa? Usuniemy zaznaczone odpowiedzi we wszystkich trzech komórkach.",
+    "confirm": "Tak, zaczynam od nowa",
+    "cancel": "Nie, wracam do gry"
+  },
+  "home": {
+    "title": "Wybierz komórkę",
+    "progress": "Ukończone komórki: {{count}} z {{total}}"
+  },
+  "city": {
+    "finished": "Wszystkie zagadki rozwiązane! Wybierz następną komórkę u góry."
+  },
+  "map": {
+    "fullscreen": "Włącz lub wyłącz pełny ekran (F)",
+    "region": "Mapa komórki. Przesuń w bok, żeby zobaczyć całość.",
+    "loading": "Wczytujemy mapę…",
+    "hint": "Kliknij budynek, żeby otworzyć pytanie.",
+    "legend": "Budynki i pytania",
+    "unavailable": "Nie udało się wczytać mapy. Możesz wybrać pytanie z listy budynków poniżej.",
+    "numberShortcut": "otwórz / zamknij pytanie",
+    "progress": "Rozwiązane: {{count}} z {{total}}"
+  },
+  "review": {
+    "title": "Powtórka",
+    "description": "Sprawdź, ile pamiętasz o komórkach.",
+    "locked": "Rozwiąż wszystkie zagadki, żeby włączyć powtórkę.",
+    "finished": "Brawo! Wszystkie pytania z powtórki za Tobą.",
+    "progress": "Rozwiązane: {{count}} z {{total}}"
+  },
+  "question": {
+    "close": "Zamknij pytanie",
+    "return": "← Wróć do mapy",
+    "placeholder": "Ta zagadka nie jest jeszcze gotowa. Odkryj pozostałe budynki.",
+    "incorrect": "To nie ta odpowiedź. Spróbuj ponownie.",
+    "correct": "Dobrze! {{organelle}}. {{explanation}}",
+    "answerLabel": "Odpowiedź {{letter}}",
+    "answerLabelWithText": "Odpowiedź {{letter}}: {{text}}"
+  },
+  "app": {
+    "title": "BioCity — komórkowe miasto",
+    "name": "BioCity"
+  },
+  "cities": {
+    "plant": {
+      "title": "Komórka roślinna",
+      "description": "Zobacz, jak działa komórka rośliny."
+    },
+    "animal": {
+      "title": "Komórka zwierzęca",
+      "description": "Zobacz, jak działa komórka zwierzęcia."
+    },
+    "bacteria": {
+      "title": "Komórka bakteryjna",
+      "description": "Zobacz, jak działa komórka bakterii."
+    }
+  },
+  "structures": {
+    "wall": "Ściana komórkowa",
+    "gate": "Błona komórkowa",
+    "power": "Mitochondrium",
+    "store": "Wakuola / pęcherzyki",
+    "farm": "Chloroplast",
+    "hall": "Jądro komórkowe",
+    "network": "Siateczka śródplazmatyczna",
+    "factory": "Rybosomy",
+    "water": "Cytozol",
+    "dna": "DNA"
+  },
+  "team": {
+    "title": "Jak nazywa się Wasza drużyna?",
+    "editTitle": "Wasza drużyna",
+    "name": "Nazwa drużyny",
+    "placeholder": "np. Tropiciele Komórek",
+    "chooseIcon": "Wybierzcie swoją ikonę",
+    "start": "Zaczynamy!",
+    "save": "Zapisz drużynę",
+    "cancel": "Wróć do gry",
+    "edit": "Zmień drużynę: {{name}}",
+    "icons": {
+      "rocket": "Rakieta",
+      "cat": "Kot",
+      "flame": "Płomień",
+      "turtle": "Żółw"
+    }
+  }
+}

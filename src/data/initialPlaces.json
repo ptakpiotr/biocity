@@ -1,0 +1,112 @@
+[
+  {
+    "id": "wall",
+    "icon": "🏰",
+    "name": "Mury obronne",
+    "organelle": "Ściana komórkowa",
+    "text": "Chroni komórkę, nadaje jej kształt i sztywność.",
+    "cells": ["plant", "bacteria"],
+    "question": "?",
+    "options": ["", "", "", ""],
+    "correct": 0
+  },
+  {
+    "id": "gate",
+    "icon": "🚪",
+    "name": "Brama miejska ze strażnikami",
+    "organelle": "Błona komórkowa",
+    "text": "Kontroluje przepływ substancji do komórki i z komórki.",
+    "cells": ["plant", "animal", "bacteria"],
+    "question": "?",
+    "options": ["", "", "", ""],
+    "correct": 0
+  },
+  {
+    "id": "power",
+    "icon": "⚡",
+    "name": "Elektrownia",
+    "organelle": "Mitochondrium",
+    "text": "Uwalnia energię podczas oddychania komórkowego.",
+    "cells": ["plant", "animal"],
+    "question": "?",
+    "options": ["", "", "", ""],
+    "correct": 0
+  },
+  {
+    "id": "store",
+    "icon": "📦",
+    "name": "Magazyn i zbiornik wodny",
+    "organelle": "Wakuola (wodniczka)",
+    "text": "Magazynuje wodę i substancje. U roślin utrzymuje jędrność; u zwierząt występują mniejsze pęcherzyki.",
+    "cells": ["plant", "animal"],
+    "question": "?",
+    "options": ["", "", "", ""],
+    "correct": 0
+  },
+  {
+    "id": "farm",
+    "icon": "🌱",
+    "name": "Farma produkująca żywność",
+    "organelle": "Chloroplast",
+    "text": "Wytwarza substancje odżywcze w procesie fotosyntezy.",
+    "cells": ["plant"],
+    "question": "?",
+    "options": ["", "", "", ""],
+    "correct": 0
+  },
+  {
+    "id": "hall",
+    "icon": "🏛️",
+    "name": "Ratusz",
+    "organelle": "Jądro komórkowe",
+    "text": "Zawiera DNA i kieruje pracą komórki.",
+    "cells": ["plant", "animal"],
+    "question": "?",
+    "options": ["", "", "", ""],
+    "correct": 0
+  },
+  {
+    "id": "network",
+    "icon": "🛤️",
+    "name": "Sieć zakładów produkcyjnych i transportowych",
+    "organelle": "Siateczka śródplazmatyczna",
+    "text": "Uczestniczy w produkcji i transporcie substancji.",
+    "cells": ["plant", "animal"],
+    "question": "?",
+    "options": ["", "", "", ""],
+    "correct": 0
+  },
+  {
+    "id": "factory",
+    "icon": "🏭",
+    "name": "Małe fabryki",
+    "organelle": "Rybosomy",
+    "text": "Produkują białka.",
+    "cells": ["plant", "animal", "bacteria"],
+    "question": "?",
+    "options": ["", "", "", ""],
+    "correct": 0
+  },
+  {
+    "id": "water",
+    "icon": "🌊",
+    "name": "Przestrzeń wypełniająca miasto",
+    "organelle": "Cytozol",
+    "text": "Płynne środowisko struktur komórkowych i reakcji chemicznych.",
+    "cells": ["plant", "animal", "bacteria"],
+    "question": "?",
+    "options": ["", "", "", ""],
+    "correct": 0
+  },
+  {
+    "id": "library",
+    "icon": "📜",
+    "name": "Biblioteka z planami miasta",
+    "organelle": "DNA bakterii (obszar nukleoidu)",
+    "text": "Przechowuje informację genetyczną bakterii, które nie mają jądra.",
+    "cells": ["bacteria"],
+    "question": "?",
+    "options": ["", "", "", ""],
+    "correct": 0
+  }
+]

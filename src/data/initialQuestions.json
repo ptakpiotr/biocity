@@ -1,0 +1,185 @@
+[
+  {
+    "questionId": "plant:wall",
+    "cityId": "plant",
+    "buildingId": "wall",
+    "question": "🏰 MISJA: OBRONA ZIELONEGO MIASTA! Nad miasto nadciąga silny wiatr! Mieszkańcy potrzebują sztywnej osłony, która pomoże komórce zachować kształt. Która struktura pełni tę funkcję?",
+    "options": ["Mitochondrium", "Jądro komórkowe", "Ściana komórkowa", "Chloroplast"],
+    "correct": 2
+  },
+  {
+    "questionId": "bacteria:wall",
+    "cityId": "bacteria",
+    "buildingId": "wall",
+    "question": "🛡️ MISJA: WZMOCNIJ OBRONĘ! Bakteryjne Miasto musi zachować swój kształt i chronić wnętrze. Która struktura większości bakterii działa jak sztywne mury obronne?",
+    "options": ["Ściana komórkowa", "Jądro komórkowe", "Mitochondrium", "Chloroplast"],
+    "correct": 0
+  },
+  {
+    "questionId": "plant:gate",
+    "cityId": "plant",
+    "buildingId": "gate",
+    "question": "🚪 MISJA: NIEPROSZENI GOŚCIE! Do Zielonego Miasta próbują dostać się różne substancje. Potrzebna jest brama kontrolująca, co wnika do komórki i co ją opuszcza. Która struktura jest taką bramą?",
+    "options": ["Ściana komórkowa", "Wakuola", "Rybosomy", "Błona komórkowa"],
+    "correct": 3
+  },
+  {
+    "questionId": "animal:gate",
+    "cityId": "animal",
+    "buildingId": "gate",
+    "question": "🚨 MISJA: AWARIA GRANICY! Zwierzęce Miasto nie posiada sztywnych murów obronnych. Co otacza komórkę zwierzęcą, oddziela ją od otoczenia i kontroluje przepływ substancji?",
+    "options": ["Ściana komórkowa", "Błona komórkowa", "Chloroplast", "Jądro komórkowe"],
+    "correct": 1
+  },
+  {
+    "questionId": "bacteria:gate",
+    "cityId": "bacteria",
+    "buildingId": "gate",
+    "question": "🚪 MISJA: KONTROLA DOSTAW! Bakteria potrzebuje pobierać substancje z otoczenia i usuwać niepotrzebne produkty. Która struktura kontroluje ich przepływ przez granicę komórki?",
+    "options": ["Rybosomy", "Ściana komórkowa", "Błona komórkowa", "Nić DNA"],
+    "correct": 2
+  },
+  {
+    "questionId": "plant:power",
+    "cityId": "plant",
+    "buildingId": "power",
+    "question": "⚡ MISJA: BRAK ENERGII! Zielone Miasto ma zapasy substancji odżywczych, ale musi uwolnić z nich energię potrzebną do życia. Która elektrownia komórkowa odpowiada za oddychanie komórkowe?",
+    "options": ["Mitochondrium", "Chloroplast", "Wakuola", "Jądro komórkowe"],
+    "correct": 0
+  },
+  {
+    "questionId": "animal:power",
+    "cityId": "animal",
+    "buildingId": "power",
+    "question": "🔦 MISJA: WIELKA AWARIA PRĄDU! Mitochondria w Zwierzęcym Mieście przestały prawidłowo pracować. Co może się stać, jeśli nie będą uwalniać wystarczającej ilości energii?",
+    "options": [
+      "Komórka zacznie przeprowadzać fotosyntezę",
+      "Komórka wytworzy ścianę komórkową",
+      "Komórka zamieni mitochondria w chloroplasty",
+      "Komórce zabraknie energii potrzebnej do wielu czynności życiowych"
+    ],
+    "correct": 3
+  },
+  {
+    "questionId": "plant:store",
+    "cityId": "plant",
+    "buildingId": "store",
+    "question": "🗑️ MISJA: MAGAZYN PRZEPEŁNIONY! W Zielonym Mieście trzeba przechowywać wodę i różne substancje, także niepotrzebne produkty. Który wielki magazyn komórkowy spełnia tę funkcję?",
+    "options": ["Mitochondrium", "Duża wakuola", "Jądro komórkowe", "Chloroplast"],
+    "correct": 1
+  },
+  {
+    "questionId": "animal:store",
+    "cityId": "animal",
+    "buildingId": "store",
+    "question": "🚛 MISJA: OPERACJA SPRZĄTANIE! W Zwierzęcym Mieście trzeba tymczasowo przechować różne substancje, również niepotrzebne. Które niewielkie struktury mogą służyć jako takie magazyny?",
+    "options": ["Chloroplasty", "Rybosomy", "Wodniczki i pęcherzyki komórkowe", "Mitochondria"],
+    "correct": 2
+  },
+  {
+    "questionId": "plant:farm",
+    "cityId": "plant",
+    "buildingId": "farm",
+    "question": "☀️ MISJA: GŁODNE MIASTO! W Zielonym Mieście zabrakło pokarmu! Na szczęście świeci słońce, a mieszkańcy mają wodę i dwutlenek węgla. Która struktura wykorzysta je do produkcji substancji odżywczych podczas fotosyntezy?",
+    "options": ["Chloroplast", "Mitochondrium", "Rybosom", "Wakuola"],
+    "correct": 0
+  },
+  {
+    "questionId": "plant:hall",
+    "cityId": "plant",
+    "buildingId": "hall",
+    "question": "🏛️ MISJA: ZAGINIONE PLANY! W ratuszu Zielonego Miasta znajdują się instrukcje potrzebne do funkcjonowania komórki. Co przechowuje jądro komórkowe?",
+    "options": ["Chlorofil", "Zapasy wody", "Tlen", "DNA zawierające informację genetyczną"],
+    "correct": 3
+  },
+  {
+    "questionId": "animal:hall",
+    "cityId": "animal",
+    "buildingId": "hall",
+    "question": "🏛️ MISJA: CHAOS W RATUSZU! W Zwierzęcym Mieście wszystkie zakłady czekają na instrukcje dotyczące pracy komórki. Która struktura zawiera DNA i kieruje jej funkcjonowaniem?",
+    "options": ["Mitochondrium", "Jądro komórkowe", "Wodniczka", "Błona komórkowa"],
+    "correct": 1
+  },
+  {
+    "questionId": "plant:network",
+    "cityId": "plant",
+    "buildingId": "network",
+    "question": "🚚 MISJA: ZATRZYMANY TRANSPORT! W Zielonym Mieście potrzebna jest sieć zakładów, które uczestniczą w produkcji i przemieszczaniu różnych substancji. Która struktura tworzy taką sieć?",
+    "options": ["Ściana komórkowa", "Chloroplast", "Siateczka śródplazmatyczna", "Jądro komórkowe"],
+    "correct": 2
+  },
+  {
+    "questionId": "animal:network",
+    "cityId": "animal",
+    "buildingId": "network",
+    "question": "🛠️ MISJA: ZEPSUTA SIEĆ PRODUKCYJNA! Zwierzęce Miasto musi produkować białka i tłuszcze oraz transportować różne substancje wewnątrz komórki. Która struktura uczestniczy w tych zadaniach?",
+    "options": ["Siateczka śródplazmatyczna", "Ściana komórkowa", "Chloroplast", "Cytozol"],
+    "correct": 0
+  },
+  {
+    "questionId": "plant:factory",
+    "cityId": "plant",
+    "buildingId": "factory",
+    "question": "🏭 MISJA: STRAJK W FABRYCE! Zielone Miasto potrzebuje nowych białek do wzrostu i prawidłowego funkcjonowania. Które małe fabryki komórkowe trzeba uruchomić?",
+    "options": ["Wakuole", "Chloroplasty", "Mitochondria", "Rybosomy"],
+    "correct": 3
+  },
+  {
+    "questionId": "animal:factory",
+    "cityId": "animal",
+    "buildingId": "factory",
+    "question": "🏭 MISJA: ODBUDOWA MIASTA! Zwierzęce Miasto potrzebuje nowych białek do wzrostu i naprawy. Co produkują rybosomy?",
+    "options": ["Wodę", "Białka", "Światło słoneczne", "DNA"],
+    "correct": 1
+  },
+  {
+    "questionId": "bacteria:factory",
+    "cityId": "bacteria",
+    "buildingId": "factory",
+    "question": "🏭 MISJA: MAŁE FABRYKI, WIELKIE ZADANIE! Bakteria nie ma jądra komórkowego ani siateczki śródplazmatycznej, ale potrafi wytwarzać białka. Dzięki którym strukturom jest to możliwe?",
+    "options": ["Chloroplastom", "Mitochondriom", "Rybosomom", "Wakuolom"],
+    "correct": 2
+  },
+  {
+    "questionId": "plant:water",
+    "cityId": "plant",
+    "buildingId": "water",
+    "question": "🌊 MISJA: CO WYPEŁNIA MIASTO? Między strukturami Zielonego Miasta znajduje się płynne środowisko, w którym zachodzi wiele reakcji chemicznych. Jak nazywa się ta część komórki?",
+    "options": ["Cytozol", "Ściana komórkowa", "Chloroplast", "Jądro komórkowe"],
+    "correct": 0
+  },
+  {
+    "questionId": "animal:water",
+    "cityId": "animal",
+    "buildingId": "water",
+    "question": "💦 MISJA: WNĘTRZE MIASTA! Organella Zwierzęcego Miasta są otoczone płynnym środowiskiem, w którym zachodzą liczne reakcje chemiczne. Czym jest to środowisko?",
+    "options": [
+      "Twardą ścianą chroniącą komórkę",
+      "Magazynem informacji genetycznej",
+      "Organellum uwalniającym energię",
+      "Cytozolem, czyli płynną częścią cytoplazmy"
+    ],
+    "correct": 3
+  },
+  {
+    "questionId": "bacteria:water",
+    "cityId": "bacteria",
+    "buildingId": "water",
+    "question": "🌊 MISJA: ŻYCIE BEZ JĄDRA! W Bakteryjnym Mieście nić DNA i rybosomy znajdują się w cytoplazmie. Jak nazywa się jej płynna część, w której zachodzi wiele reakcji chemicznych?",
+    "options": ["Chloroplast", "Cytozol", "Ściana komórkowa", "Mitochondrium"],
+    "correct": 1
+  },
+  {
+    "questionId": "bacteria:library",
+    "cityId": "bacteria",
+    "buildingId": "library",
+    "question": "📜 MISJA: TAJNE PLANY! Bakteria musi zachować instrukcje potrzebne do życia i rozmnażania. Nie posiada jednak jądra komórkowego! Gdzie znajduje się jej nić DNA?",
+    "options": [
+      "W mitochondrium",
+      "W chloroplaście",
+      "W cytozolu, ponieważ bakteria nie ma jądra komórkowego",
+      "W ścianie komórkowej"
+    ],
+    "correct": 2
+  }
+]
