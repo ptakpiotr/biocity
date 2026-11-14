@@ -42,7 +42,7 @@ export default defineConfig({
       includeAssets: ["favicon.svg", "apple-touch-icon.png"],
       manifest: {
         id: "./",
-        name: "BioCity — komórkowe miasto",
+        name: "BioCity - komórkowe miasto",
         short_name: "BioCity",
         description:
           "Poznaj struktury komórki i rozwiązuj zagadki w trzech biologicznych miastach.",

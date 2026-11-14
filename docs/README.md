@@ -12,4 +12,4 @@ The ADRs follow Michael Nygard's format: title, status, context, decision, and c
 - [Map tabs and keyboard shortcuts](adr/map-navigation-and-hotkeys.md)
 - [An interface for 11-year-olds](adr/visual-language-for-children.md)
 - [Business logic tests with Vitest](adr/business-logic-tests-vitest.md)
-- [Previous testing strategy — superseded](adr/browser-and-domain-tests.md)
+- [Previous testing strategy - superseded](adr/browser-and-domain-tests.md)

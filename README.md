@@ -8,13 +8,13 @@ Architecture decisions and implementation notes: [documentation](docs/README.md)
 
 The project uses Vite+, which provides the development server, production bundler, linter, formatter, and Vitest runner.
 
-- `npm run dev` — start the local development server.
-- `npm run build` — check TypeScript and create a production build.
-- `npm run preview` — serve the production build locally.
-- `npm run lint` — run static code analysis.
-- `npm test` — run the business logic tests once with Vitest.
-- `npm run test:watch` — run tests in watch mode.
-- `npm run test:typecheck` — check types in the application and tests.
+- `npm run dev` - start the local development server.
+- `npm run build` - check TypeScript and create a production build.
+- `npm run preview` - serve the production build locally.
+- `npm run lint` - run static code analysis.
+- `npm test` - run the business logic tests once with Vitest.
+- `npm run test:watch` - run tests in watch mode.
+- `npm run test:typecheck` - check types in the application and tests.
 
 ## PWA and installation
 
@@ -50,24 +50,24 @@ Roboto is imported in `src/styles/app.css` through the official Google Fonts CSS
 
 ## Project structure
 
-- `src/components/CityTabs.tsx` — accessible city tabs.
-- `src/components/QuestionDialog.tsx` — question dialog.
-- `src/pixi/cityDesign.ts` — city layouts, terrain, surroundings, and roads.
-- `src/pixi/cityLandmarks.ts` — individual buildings and architectural details.
-- `src/pixi/cityGeometry.ts` — isometric geometry.
-- `src/pixi/createCityScene.ts` — rendering, interaction, animation, and resource cleanup.
-- `src/store`, `src/lib` — progress, IndexedDB, and validation.
+- `src/components/CityTabs.tsx` - accessible city tabs.
+- `src/components/QuestionDialog.tsx` - question dialog.
+- `src/pixi/cityDesign.ts` - city layouts, terrain, surroundings, and roads.
+- `src/pixi/cityLandmarks.ts` - individual buildings and architectural details.
+- `src/pixi/cityGeometry.ts` - isometric geometry.
+- `src/pixi/createCityScene.ts` - rendering, interaction, animation, and resource cleanup.
+- `src/store`, `src/lib` - progress, IndexedDB, and validation.
 
 ## Business logic tests
 
 Tests in `tests/*.test.ts` use Vitest in a Node environment. They do not require Chrome or a running Vite server. They replaced the earlier browser tests and the `node:test` runner.
 
-- `questions.test.ts` — question assignments, content independence after migration, question readiness, and stale content detection.
-- `progress.test.ts` — cell completion, review unlock conditions, the next question, and scoring by `questionId`.
-- `persistence.test.ts` — team validation and safe loading of older or malformed data.
-- `progressStore.test.ts` — Zustand actions, independent completions, team editing, reset, and restoring saved state. Only the localStorage backend is replaced with memory; the store and persist middleware remain real.
-- `resilientStorage.test.ts` — blocked access, read and removal failures, quota limits, and preserving newer progress within a session.
-- `cityScene.test.ts` — changes in reduced motion and tab visibility, observer cleanup, and unmounting before initialization finishes. The renderer and geometry are mocked; these tests do not check WebGL output.
+- `questions.test.ts` - question assignments, content independence after migration, question readiness, and stale content detection.
+- `progress.test.ts` - cell completion, review unlock conditions, the next question, and scoring by `questionId`.
+- `persistence.test.ts` - team validation and safe loading of older or malformed data.
+- `progressStore.test.ts` - Zustand actions, independent completions, team editing, reset, and restoring saved state. Only the localStorage backend is replaced with memory; the store and persist middleware remain real.
+- `resilientStorage.test.ts` - blocked access, read and removal failures, quota limits, and preserving newer progress within a session.
+- `cityScene.test.ts` - changes in reduced motion and tab visibility, observer cleanup, and unmounting before initialization finishes. The renderer and geometry are mocked; these tests do not check WebGL output.
 
 `vitest.config.ts` shares the Vite configuration and aliases. Tests do not verify PixiJS rendering, native IndexedDB, or browser behavior; those areas require manual verification.
 
